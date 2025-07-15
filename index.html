@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastor Duncan Muthomi's Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/8fab7f9f8c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header">
+      <div class="container">
+        <nav>
+          <ul id="sidemenu">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About Me</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <i class="fa-solid fa-xmark nav-close" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars nav-open" onclick="openmenu()"></i>
+        </nav>
+<div class="header-text">
+          <h1>Hi, I'm Pastor <span>Duncan</span> Muthomi.</h1>
+          <p>A dedicated servant of God, sharing the message of hope.</p>
+        </div>
+      </div>
+    </header>
+    <main>
+        <!------about section ------->
+        <section id="About">
+            <div class="container">
+                <div class="row">
+                    <div class ="about-col-1">
+                        <img src="Images/muthomi.jpeg" alt="my Photo" width="500" height="400">
+                    </div>
+                <div class ="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Pastor Duncan Muthomi, a devoted Adventist pastor with a passion for spreading the gospel and serving the community. My journey in faith is dedicated to spiritual guidance, pastoral care, and fostering a welcoming environment for all to experience God's love.</p>
+                    <p>With a strong foundation in theological studies and a heart for ministry, I strive to deliver sermons that inspire and provide meaningful Bible studies. My goal is to support individuals and families in their spiritual walk and make a positive impact in our community.</p>
+                    <div class="tab-titles">
+                       <p class="tab-links active-link" onclick="opentab('calling')">My Calling</p>
+                       <p class="tab-links" onclick="opentab('ministries')">Ministries</p>
+                       <p class="tab-links" onclick="opentab('studies')">Theological Studies</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="calling">
+                      <ul>
+                        <li><span>Spreading the Gospel</span><br>Sharing the word of God</li>
+                        <li><span>Community Outreach</span><br>Serving the local community</li>
+                        <li><span>Pastoral Counseling</span><br>Providing spiritual guidance</li>
+                      </ul>
+                    </div>
+                    <div class="tab-contents" id="ministries">
+                      <ul>
+                        <li><span>Youth Ministry</span><br>Leading and guiding the youth</li>
+                        <li><span>Sabbath School</span><br>Teaching and facilitating Bible study</li>
+                        <li><span>Community Service</span><br>Organizing outreach programs</li>
+                      </ul>
+                    </div>
+                    <div class="tab-contents" id="studies">
+                      <ul>
+                        <li><span>2018</span><br>Bachelor of Theology, University of Eastern Africa, Baraton</li>
+                      </ul>
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+        <!------services section ------->
+    <section id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Ministry</h1>
+            <div class="services-list">
+                <div>
+                  <i class="fa-solid fa-book-bible"></i>
+                    <h2>Sermons</h2>
+                    <p>I deliver inspirational and uplifting weekly sermons, grounded in scripture, to nourish the soul and strengthen faith.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                  <i class="fa-solid fa-users"></i>
+                    <h2>Bible Study</h2>
+                    <p>Join our in-depth Bible study sessions for all ages, designed to deepen understanding and explore the richness of God's word.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                  <i class="fa-solid fa-hand-holding-heart"></i>
+                    <h2>Pastoral Care</h2>
+                    <p>I provide confidential pastoral care and spiritual guidance for individuals and families facing life's challenges.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------Projects Section ------->
+    <section id="Projects">
+      <div class="container">
+        <h1 class="sub-title">Sermon Series & Events</h1>
+        <div class="projects-list">
+          <div class="project">
+            <img src="Images/preaching.jpg" alt="Project 1">
+            <div class="layer">
+              <h3>The Book of Revelation</h3>
+              <p>An in-depth sermon series exploring the prophecies and promises of the book of Revelation.</p>
+              <a href="#"><i class="fa-regular fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="Images/counselling.jpg" alt="Project 2">
+            <div class="layer">
+              <h3>Family Life Seminar</h3>
+              <p>An event focused on strengthening family bonds through faith-based principles.</p>
+              <a href="#"><i class="fa-regular fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="Images/community.jpeg" alt="Project 3">
+            <div class="layer">
+             <h3>Annual Community Outreach</h3>
+              <p>A community service initiative providing support and resources to local families.</p>
+              <a href="#"><i class="fa-regular fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </section>
+    <!-------Contact Section ------->
+    <section id="Contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>If you have any questions or want to work together, feel free to reach out!</p>
+            <p><i class="fa-solid fa-paper-plane"></i> Email: duncanmuthomi05@gmail.com</p>
+            <p><i class="fa-solid fa-square-phone"></i> Phone: +254 745098509</p>
+            <div class="social-icons">
+              <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+              <button type="submit" class="btn btn2">Send Message</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+    </section>
+    </main>
+    <footer class="copyright">
+      <p>Copyright © Pastor Duncan Muthomi. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
